@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: crimson;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 17.5%;
+    background-color: white;
+    border-right: 1px solid silver;
+}
+
+.sidebar ul{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.sidebar ul li.category{
+    margin-top: 25px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.sidebar .menu{
+    color: #5b6e88;
+    font-size: 400;
+}
+
+.sidebar .menu :hover{
+    color: blue;
+}
+
+.sidebar .list-inside{
+    display: block;
+    padding-left: 0px;
+}
+
+.sidebar .none{
+    display : none;
+}
+
+.sidebar .menu-text{
+    padding-left: 7px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sidebar .circle{
+    clip-path: circle();
+    margin: 0px;
+}
+
+.sidebar .user-image-border{
+    border: 2px solid silver;
+    border-radius: 50%;
+    padding: 2px;
+}
+.sidebar .image-text{
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar .user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar .user-image{
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar .username,.sidebar .user-role{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sidebar .username{
+    font-size: 14px;
+}
+
+.sidebar .user-role {
+    font-size: 11px;
+    color: darkgray;    
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 0;   
+    width: 82.5%; 
+    height: 40px;
+    border-left: 1px solid silver;
+    /* position: fixed;
+    right: 0;
+    top:0; */
+}
+
+.navbar div{
+    margin-left: 45px;
+    margin-right: 35px;
+}
